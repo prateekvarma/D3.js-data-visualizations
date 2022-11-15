@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import CsvData from './components/CsvData';
+import CsvToPie from './components/CsvToPie';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           Link
         </a>
       </header>
+      <CsvToPie />
       <CsvData />
     </div>
   );
